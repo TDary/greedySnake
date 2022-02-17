@@ -25,6 +25,9 @@
     <Image Include="man.jpg" />
     <Image Include="test.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="app.h" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>

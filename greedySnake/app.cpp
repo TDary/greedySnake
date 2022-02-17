@@ -6,6 +6,10 @@
 using namespace std;
 using namespace easy2d;
 
+void GreedySnake::gs_check_input()
+{
+	
+}
 class Man : public Sprite {
 public:
 	Man()
