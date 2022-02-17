@@ -50,26 +50,6 @@ int main() {
 
 		scene->addChild(hero);
 
-
-
-		//auto text = gcnew Text(L"Hello Easy2D!");  //创建一个文本
-		//auto rotate = gcnew RotateTo(3, 180);
-		//auto rotate = gcnew RotateBy(1, 60);
-		//auto action = gcnew Loop(rotate);
-		//auto button = gcnew Button;
-		/*auto sprite = gcnew Sprite(L"test.jpg");
-		float width = Window::getWidth();
-		float height = Window::getHeight();*/
-		/*sprite->setAnchor(0.5, 0.5);
-		sprite->setPos(width / 2, height / 2);*/
-		//sprite->setSize(1000, 800);
-		//text->setAnchor(0.5, 0.5);                  //设置文本中心点
-		//text->setPos(Window::getSize() / 2);        //将这个文本居中
-		//scene->addChild(text);                      //将这个文本添加到场景中
-		//text->runAction(action);
-		//scene->addChild(button);
-		//scene->addChild(sprite);
-
 		Game::start();                        //开始游戏
 
 	}
